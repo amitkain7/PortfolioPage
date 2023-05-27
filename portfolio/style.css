@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+/* normalize css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(12, 12, 30);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav css */
+/*  justify-content — controls alignment of all items on the main axis (hortizontal x axis). 
+align-items — controls alignment of all items on the cross axis(vertical y axis)*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    font-size: 1.07rem;
+    color: rgb(188, 188, 246);
+}
+
+
+.left {
+    font-size: 1.3rem;
+}
+
+/* main section */
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0px;
+    align-items: center;
+
+
+}
+
+.firstSection>div {
+    width: 30%;
+
+}
+
+.leftSection {
+
+    font-size: 2rem;
+
+}
+.leftSection .buttons{
+    margin: 10px 0px;
+}
+.leftSection .btn{
+    padding: 5px 10px;
+    
+    border: 1px solid white;
+    background: rgb(69, 22, 112);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.leftSection .btn a{
+    text-decoration: none;
+    color: white;
+}
+.leftSection .btn:hover{
+     font-size: 1.01rem;
+}
+
+
+
+
+.rightSection img {
+    width: 80%;
+
+
+}
+
+main hr {
+    border: 0;
+    height: 2px;
+    background-color: blueviolet;
+    margin: 3px 60px;
+
+}
+
+
+
+/* left section inside */
+
+
+.purple {
+    color: blueviolet;
+    font-size: 3rem;
+}
+
+#element {
+    color: blueviolet;
+}
+
+/* section section */
+
+.secondSection {
+    max-width: 60%;
+    margin: 20px auto;
+    height: 600px;
+
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.textgray {
+    color: gray;
+}
+
+.secondSection .box{
+    background: white;
+    width: 90vh;
+    height: 2px;
+    margin: 50px 0px;
+    display: flex;
+}
+
+.secondSection .vertical{
+   height: 90px ; 
+   width: 1px; 
+   background-color: white;
+   margin: 0 80px;
+}
+
+.image-top{
+    width: 25px;
+    position: relative;
+    top: -30px;
+    left: -9px;
+}
+
+.vertical-title{
+    position: relative;     
+    top: 75px; 
+    width: 150px;
+}
+
+.vertical-desc{
+     position: relative;
+     top: 100px;
+     color: gray;
+     width: 150px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(6, 6, 35);
+    height: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.footer .second ul li{
+    list-style: none;
+    
+}
+
